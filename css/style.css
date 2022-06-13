@@ -101,3 +101,7 @@ body {
     width: 100%;
     padding: 2rem 0;
 }
+
+.newClass {
+    position: absolute;
+}
