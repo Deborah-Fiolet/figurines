@@ -1,0 +1,103 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+/* HEADER */
+
+
+.title{
+    background-color: #c80000;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #fff;
+    padding: 1rem 0 1rem 1rem;
+}
+
+.title-suffix{
+    font-size: 0.4em;
+}
+
+.subtitle{
+    color: #fff;
+    text-align: center;
+    background-color: #666;
+    padding: 0.5rem 0 0.5rem 0;
+}
+
+.subtitle-suffix{
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+
+/* CARD FIGURINE */
+
+.figurines{
+    margin: 1rem 3rem;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content:space-evenly;
+	align-items: center;
+	align-content: space-evenly;
+}
+
+.figurine-card{
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+}
+
+.game{
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    padding: 0.8rem 0 0.3rem 0.3rem;
+    text-transform: uppercase;
+    color: #ccc;
+    border-bottom:1px solid #ccc;
+}
+
+
+.subsubtitle{
+    font-weight: bold;
+    font-size: 1.8rem;
+    margin: 0.8rem 0;
+}
+
+.description{
+    margin-bottom: 0.8rem;
+}
+
+.add-panier{
+    display: flex;
+    justify-content:space-between;
+    text-align: left;
+    width: 100%;
+    padding: 0.8rem;
+    border: none;
+    background-color: #c80000;
+    color: #fff;
+}
+
+
+.price-before{
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+.new-price {
+ 
+    font-weight: bold;
+}
+
+
+.footer-p {
+    position: absolute;
+    background-color: #666;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding: 2rem 0;
+}
